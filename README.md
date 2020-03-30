@@ -1,8 +1,8 @@
 # Projeto Desenvolvido na Maratona Dev 3 da Rockeseat
 
 ## Aplicação Desenvolvida: DOE
- * Um cadastro de doadores de sangue.
- * Uma página com informações sobre a importancia da doação de sangue.
+![Doe](imagens/screenshots/Doe-projeto.png)
+ * Uma página com informações sobre a importância da doação de sangue.
  * Cadastro dos doadores.
  * Exibição dos doadores cadastrados.
 
@@ -26,4 +26,3 @@
      * Espaços, fontes, cores, posicionamentos, larguras e alturas
    * Javascript (Inteligência)
      * Ecmascript básico
-
