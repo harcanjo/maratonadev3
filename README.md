@@ -23,6 +23,7 @@
      * Marcações por tag's
    * CSS (Estilo)
      * Cascade Stylesheet
+     * Espaços, fontes, cores, posicionamentos, larguras e alturas
    * Javascript (Inteligência)
      * Ecmascript básico
 
