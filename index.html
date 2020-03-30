@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doe vida! Doe sangue</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 
@@ -13,7 +13,7 @@
     <header>
         <img 
             class="logo"
-            src="imagens/logo.png" 
+            src="/imagens/logo.png" 
             alt="Logo de DOE">
         <h2>A sua doação importa</h2>
 
@@ -26,7 +26,7 @@
 
     <section class="form hide">
         <h2>Entre na lista de doadores</h2>
-        <form action="/">
+        <form action="/" method="POST">
             <input
                 type="text"
                 name="name"
@@ -54,25 +54,13 @@
 
         <section class="donors">
 
-            <div class="donor">
-                <div class="blood">AB+</div>
-                <p>Diego Fernandes</p>
-            </div>  
+            {% for donor in donors %}
+                <div class="donor">
+                    <div class="blood">{{donor.blood}}</div>
+                    <p>{{donor.name}}</p>
+                </div>           
+            {% endfor %}
             
-            <div class="donor">
-                <div class="blood">B+</div>
-                <p>Cleiton Souza</p>
-            </div> 
-
-            <div class="donor">
-                <div class="blood">A+</div>
-                <p>Robson Marques</p>
-            </div> 
-
-            <div class="donor">
-                <div class="blood">O+</div>
-                <p>Mayk Brito</p>
-            </div> 
         </section>
     </main>
 
@@ -80,7 +68,7 @@
         Com ❤️ Rocketseat
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="/scripts.js"></script>
 </body>
 
 </html>

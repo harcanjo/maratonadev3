@@ -1,0 +1,27 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "## Aplicação Desenvolvida: DOE ![Doe](imagens/screenshots/Doe-projeto.png)  * Uma página com informações sobre a importância da doação de sangue.  * Cadastro dos doadores.  * Exibição dos doadores cadastrados.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harcanjo/maratonadev3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harcanjo/maratonadev3/issues"
+  },
+  "homepage": "https://github.com/harcanjo/maratonadev3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.1",
+    "pg": "^8.0.0"
+  }
+}
